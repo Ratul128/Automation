@@ -1,9 +1,9 @@
 from selenium import webdriver
 
-def open_webpage_offline():
+def open_webpage_online():
     driver= webdriver.Firefox()
-    driver.get("file:///Users/nurulamin/Desktop/Python Learning/Your Store.htm")
+    driver.get("https://www.google.com/")
 
     driver.close()
 
-open_webpage_offline()
+open_webpage_online()

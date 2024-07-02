@@ -1,5 +1,4 @@
 from selenium import webdriver
-
 def firefox_launch():
     driver= webdriver.Firefox()
 
